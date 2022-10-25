@@ -8,12 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet private weak var counterLabel: UILabel!
     private var count = 0
     
     @IBAction private func counterButton(_ sender: Any) {
         count = count + 1
-            counterLabel.text = "Значение счётчика:\n\n\(count)"
+        counterLabel.text = "Значение счётчика:\n\n\(count)"
     }
 }
